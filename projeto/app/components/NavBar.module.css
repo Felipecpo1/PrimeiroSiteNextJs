@@ -1,0 +1,23 @@
+.display{
+    color: rgb(15, 0, 81);
+    margin-left: 80px;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(15, 0, 81);
+}
+
+.display ul{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.display li{
+    margin-right: 70px;
+    padding: 10px;
+}
+
+.display li:hover{
+    background-color: rgb(15, 0, 81);
+    transition: all 0.5s;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
