@@ -1,0 +1,20 @@
+.display {
+    color: white;
+    padding: 10px;
+}
+
+.display ul{
+    display: flex;
+    text-align: center;
+}
+
+.display li{
+    background-color: rgb(15, 0, 81);
+    margin-left: 10px;
+    padding: 10px;
+    width: 110px;
+}
+
+.display a:hover{
+    text-decoration: underline;
+}

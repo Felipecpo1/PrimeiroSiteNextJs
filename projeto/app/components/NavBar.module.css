@@ -17,7 +17,7 @@
 
 .display li:hover{
     background-color: rgb(15, 0, 81);
+    border-radius: 0px 20px 0px 0px;
     transition: all 0.5s;
     color: white;
-    border-radius: 10px 10px 0px 0px;
 }
