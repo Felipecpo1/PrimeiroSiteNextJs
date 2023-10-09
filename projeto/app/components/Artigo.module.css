@@ -1,0 +1,22 @@
+.display{
+
+    background-color: rgb(15, 0, 81);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.display article{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+.display h1{
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
