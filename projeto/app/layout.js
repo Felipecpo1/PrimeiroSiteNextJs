@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'/>
         <NavBar/>
         <Aside/>
-        <div className=' ml-24 mt-32'>
+        <div className=' ml-24'>
         {children}
         </div>
       </body>

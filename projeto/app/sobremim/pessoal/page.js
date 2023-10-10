@@ -5,18 +5,12 @@ import Pessoal2 from './components/Pessoal2';
 import Pessoal3 from './components/Pessoal3';
 import styles from '../../components/Artigo.module.css'
 import { Navigation, Pagination, A11y } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 export default () => {
   return (
     <div className={styles.display}>
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, A11y]}
       spaceBetween={50}
       slidesPerView={1}
