@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(246, 246, 246);
+    background-image: url('/images/inicio.png');
+    background-size:cover;
+    background-repeat: no-repeat;
     
 }
 
