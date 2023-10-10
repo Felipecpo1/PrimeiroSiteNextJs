@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Aside.module.css'
+import styles from './Footer.module.css'
 
-export default function Aside() {
+export default function Footer() {
   return (
     <div className={styles.display}>
       <ul>

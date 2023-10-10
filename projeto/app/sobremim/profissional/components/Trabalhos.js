@@ -5,7 +5,7 @@ export default function Trabalhos() {
     <div>
       <section>
         <article>
-                <h1><i className="fa-solid fa-briefcase"></i> Trabalhos:</h1>
+                <h1><i className="fa-solid fa-briefcase"></i> Trabalhos</h1>
                 <ul>   
                     <li>Estagiário na empresa CIEE, de Junho de 2012 à Dezembro de 2012;</li>
                     <li>Soldado no Depósito Central de Munições, de Março de 2013 à Janeiro de 2014;</li>

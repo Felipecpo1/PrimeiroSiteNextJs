@@ -5,7 +5,7 @@ export default function Infos() {
     <div>
       <section>
         <article>
-            <h1><i className="fa-solid fa-info"></i> Informações adicionais:</h1>
+            <h1><i className="fa-solid fa-info"></i> Informações adicionais</h1>
             <ul>
                 <li>CNH-B;</li>
                 <li>Carro próprio;</li>

@@ -1,23 +1,23 @@
-.display{
-    color: rgb(15, 0, 81);
-    margin-left: 80px;
-    margin-top: 25px;
-    border-bottom: 1px solid rgb(15, 0, 81);
-}
+
 
 .display ul{
+    font-size: 20px;
+    padding-top: 5px;
+    color: rgb(15, 0, 81);
     display: flex;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(15, 0, 81);
+
 }
 
 .display li{
-    margin-right: 70px;
     padding: 10px;
+    border-radius: 0px 10px 0px 0px;
 }
 
 .display li:hover{
-    background-color: rgb(15, 0, 81);
-    border-radius: 0px 20px 0px 0px;
-    transition: all 0.5s;
     color: white;
+    background-color: rgb(15, 0, 81);
+    transition: .5s;
 }

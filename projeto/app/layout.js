@@ -1,4 +1,4 @@
-import Aside from './components/Aside'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import './globals.css'
 
@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
       <body>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'/>
         <NavBar/>
-        <Aside/>
-        <div className=' ml-24'>
+        <Footer/>
+        <div className='pt-5 pb-44'>
         {children}
         </div>
       </body>

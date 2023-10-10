@@ -5,7 +5,7 @@ export default function Cursos() {
     <div>   
         <section>
             <article>
-                <h1><i className="fa-solid fa-book"></i> Cursos:</h1>
+                <h1><i className="fa-solid fa-book"></i> Cursos</h1>
                 <ul>
                     <li>HTML5/JavaScript/CSS3 em “Curso Em Vídeo” (curso online);</li>
                     <li>Informática Avançada na Instituição CETEP-RJ;</li>

@@ -5,8 +5,8 @@
 
 .display ul{
     display: flex;
+    justify-content: center;
     text-align: center;
-    top: 1;
 }
 
 .display li{

@@ -1,16 +1,19 @@
 .display {
-    width: 80px;
     background-color: rgb(15, 0, 81);
     top: 0;
-    bottom: 0;
-    position: absolute;
-    display:flex;
+    left: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.display ul{
+    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .display i{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
@@ -19,5 +22,5 @@
 }
 
 .display li{
-    margin-top: 20px;
+    padding-right: 10px;
 }
