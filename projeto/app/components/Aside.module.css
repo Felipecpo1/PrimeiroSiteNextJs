@@ -3,14 +3,13 @@
     background-color: rgb(15, 0, 81);
     top: 0;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     display:flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 .display i{
-    bottom: 0;
     font-size: 30px;
     color: white;
 }
