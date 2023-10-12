@@ -6,8 +6,8 @@ export default function Foto2() {
     <div>
       <Image
       src='/images/amor.jpg'
-      width={1500}
-      height={1500}
+      width={500}
+      height={500}
       alt=''
       />
     </div>

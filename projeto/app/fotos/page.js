@@ -1,34 +1,40 @@
 'use client'
 import React from 'react'
-import {Navigation, Pagination, A11y, Keyboard, Autoplay} from 'swiper/modules'
-import {Swiper, SwiperSlide} from 'swiper/react'
-import 'swiper/css/bundle';
-import styles from './components/Artigo.module.css'
+import '@brainhubeu/react-carousel/lib/style.css';
+import Carousel, { slidesToShowPlugin, slidesToScrollPlugin } from '@brainhubeu/react-carousel';
 import Foto1 from './components/Foto1';
 import Foto2 from './components/Foto2';
 import Foto3 from './components/Foto3';
-
+import Foto4 from './Foto4';
 
 export default function page() {
   return (
-    <div className='border-blue-950'>
-    <div className={styles.display}>
-      <Swiper
-      modules={[Navigation, Pagination, A11y, Keyboard, Autoplay]}
-      slidesPerView={[1]}
-      spaceBetween={20}
-      pagination={{clickable: true}}
-      navigation
-      keyboard={true}
-      loop={true}
-      >
-        <div className=' bg-red-600'>
-        <SwiperSlide><Foto1/></SwiperSlide>
-        <SwiperSlide><Foto2/></SwiperSlide>
-        <SwiperSlide><Foto3/></SwiperSlide>
-        </div>
-      </Swiper>
-    </div>
+    <div>
+    <Carousel
+      className=' bg-blue-950'
+      plugins={[
+        'centered',
+        'infinite',
+        'arrows',
+      {
+        resolve: slidesToShowPlugin,
+        options: {
+          numberOfSlides: 1,
+        },
+      },
+      {
+        resolve: slidesToScrollPlugin,
+        options: {
+          numberOfSlides: 2,
+        },
+      },
+    ]}   
+     >
+        <Foto1/>
+        <Foto2/>
+        <Foto3/>
+        <Foto4/>
+    </Carousel>
     </div>
   )
 }

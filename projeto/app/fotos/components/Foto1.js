@@ -7,8 +7,8 @@ export default function Foto1() {
     <div>
       <Image
       src='/images/amigos.jpg'
-      width={1500}
-      height={1500}
+      width={500}
+      height={500}
       alt='blablabla'
       />
     </div>

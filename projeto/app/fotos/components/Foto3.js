@@ -6,8 +6,8 @@ export default function Foto3() {
     <div>
       <Image
       src='/images/familia.jpg'
-      width={1500}
-      height={1500}
+      width={500}
+      height={500}
       alt=''
       />
     </div>
