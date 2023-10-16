@@ -1,40 +1,45 @@
 'use client'
 import React from 'react'
 import '@brainhubeu/react-carousel/lib/style.css';
-import Carousel, { slidesToShowPlugin, slidesToScrollPlugin } from '@brainhubeu/react-carousel';
-import Foto1 from './components/Foto1';
-import Foto2 from './components/Foto2';
-import Foto3 from './components/Foto3';
-import Foto4 from './Foto4';
+import Carousel, { slidesToShowPlugin} from '@brainhubeu/react-carousel';
+import styles from './components/Swiper.module.css'
 
 export default function page() {
   return (
-    <div>
+    <div className={styles.display}>
+    <span>
     <Carousel
-      className=' bg-blue-950'
+    className='p-5'
       plugins={[
-        'centered',
         'infinite',
         'arrows',
-      {
-        resolve: slidesToShowPlugin,
-        options: {
-          numberOfSlides: 1,
+        'centered',
+        {
+          resolve: slidesToShowPlugin,
+          options: {
+           numberOfSlides: 2
+          }
         },
-      },
-      {
-        resolve: slidesToScrollPlugin,
-        options: {
-          numberOfSlides: 2,
-        },
-      },
-    ]}   
+      ]}   
      >
-        <Foto1/>
-        <Foto2/>
-        <Foto3/>
-        <Foto4/>
+      <div className=' ml-1 rounded-sm bg-white p-1 border border-gray-700'>
+        <img src='/images/amigos.jpg'/>
+        <p className=' text-center'>Amigos 👯</p>
+      </div>
+      <div className=' ml-1 rounded-sm bg-white p-1 border border-gray-700'>
+        <img src='/images/amor.jpg'/>
+        <p className=' text-center'>Amor ❤️</p>
+      </div>
+      <div className=' ml-1 rounded-sm bg-white p-1 border border-gray-700'>
+        <img src='/images/familia.jpg'/>
+        <p className=' text-center'>Família 🏡</p>
+      </div>
+      <div className=' ml-1 rounded-sm bg-white p-1 border border-gray-700'>
+        <img src='/images/praia.jpg'/>
+        <p className=' text-center'>Praia 🏖️</p>
+      </div>
     </Carousel>
+    </span>
     </div>
   )
 }
