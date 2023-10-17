@@ -1,0 +1,17 @@
+.display {
+
+}
+
+.display img {
+    background-color: black;
+    padding: 10%;
+    position: absolute;
+    display: block;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 20%;
+    color: white;
+}
