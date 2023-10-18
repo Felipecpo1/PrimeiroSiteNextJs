@@ -1,8 +1,21 @@
 .display {
     position: relative;
     background-color: rgb(15, 0, 81);
-    border-radius: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
+    border-radius: 10px;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 10px;
 }
+
+.display img{
+    border-radius: 10px;
+}
+
+.display img:hover {
+    scale: 0.9;
+    border-radius: 0;
+    transition: .5s;
+}
+
+
 
