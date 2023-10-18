@@ -10,8 +10,9 @@ export default function Familia() {
       <SlideshowLightbox className='container grid grid-cols-2 gap-2 mx-auto' showThumbnails={true}>
         <img src='/images/amigos.jpg'/>
         <img src='/images/amigos2.jpg'/>
-        <img src='/images/amigos3.jpg'/>
         <img src='/images/amigos4.jpg'/>
+        <img src='/images/amigos3.jpg'/>
+
       </SlideshowLightbox>
     </div>
   )

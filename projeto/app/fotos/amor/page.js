@@ -9,9 +9,10 @@ export default function Familia() {
     <div className={styles.display}>
       <SlideshowLightbox className='container grid grid-cols-2 gap-2 mx-auto' showThumbnails={true}>
         <img src='/images/amor.jpg'/>
-        <img src='/images/amor2.jpg'/>
+
         <img src='/images/amor3.jpg'/>
         <img src='/images/amor4.jpg'/>
+        <img src='/images/amor2.jpg'/>
       </SlideshowLightbox>
     </div>
   )
