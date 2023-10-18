@@ -1,0 +1,15 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.display button {
+    background-color: rgb(15,0,81);
+    padding: 10px;
+    color: white;
+    width: 90px;
+    margin: 5px;
+    border-radius: 10px;
+}
