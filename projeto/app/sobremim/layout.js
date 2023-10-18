@@ -1,7 +1,7 @@
 import React from 'react'
 import BotoesSobre from './components/BotoesSobre'
 
-export default function SobreMimLayout({children}) {
+export default async function SobreMimLayout({children}) {
   return (
     <div>
       <BotoesSobre/>

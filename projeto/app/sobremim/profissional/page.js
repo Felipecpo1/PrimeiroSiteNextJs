@@ -10,7 +10,8 @@ import Infos from './components/Cursos';
 import styles from './components/Artigo.module.css'
 
 
-export default function page() {
+export default async function page() {
+  await new Promise ((resolve) => setTimeout(resolve,1000))
   return (
     <div className={styles.display}>
       <Swiper
